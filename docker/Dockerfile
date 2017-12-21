@@ -10,7 +10,7 @@ RUN apt-get update -y && \
 
 # Download
 RUN cd /tmp && \
-    git clone https://github.com/XLab-Tongji/KAOSer.git
+    git clone https://github.com/lanyetc/KAOSer.git
 
 # Patch EmbedServlet2
 ADD assets/embed2js.patch /tmp/KAOSer/war/plugins/
